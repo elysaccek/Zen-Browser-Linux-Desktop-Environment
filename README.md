@@ -14,8 +14,8 @@ Open the zen.desktop file in a text editor.
 You will see placeholder text like:
 ```
 Exec=<path-to-your-AppImage-file>
-icons/zenbrowser.png — Application icon
 ```
+
 You must replace <path-to-your-AppImage-file> with the full absolute path to where your Zen Browser AppImage is located.
 
 **Important:**
