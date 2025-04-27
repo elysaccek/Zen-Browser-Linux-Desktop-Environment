@@ -10,13 +10,52 @@ GenericName=Web Browser
 Actions=new-window;private-window;safe-mode;
 
 [Desktop Action new-window]
-Name=New Window
 Exec=<path-to-your-AppImage-file> --new-window
+Name=New Window
+Name[en]=New Window
+Name[tr]=Yeni Pencere
+Name[es]=Nueva ventana
+Name[fr]=Nouvelle fenêtre
+Name[de]=Neues Fenster
+Name[ru]=Новое окно
+Name[zh]=新建窗口
+Name[pt]=Nova janela
+Name[it]=Nuova finestra
+Name[ja]=新しいウィンドウ
+Name[ko]=새 창
+Name[hi]=नया विंडो
+Name[bn]=নতুন উইন্ডো
 
 [Desktop Action private-window]
-Name=Private Window
 Exec=<path-to-your-AppImage-file> --private-window
+Name=Private Window
+Name[en]=Private Window
+Name[tr]=Gizli Pencere
+Name[es]=Ventana privada
+Name[fr]=Fenêtre privée
+Name[de]=Privates Fenster
+Name[ru]=Приватное окно
+Name[zh]=隐私窗口
+Name[pt]=Janela privada
+Name[it]=Finestra privata
+Name[ja]=プライベートウィンドウ
+Name[ko]=비공개 창
+Name[hi]=निजी विंडो
+Name[bn]=প্রাইভেট উইন্ডো
 
 [Desktop Action safe-mode]
-Name=Safe Mode
 Exec=<path-to-your-AppImage-file> --safe-mode
+Name=Safe Mode
+Name[en]=Safe Mode
+Name[tr]=Güvenli Mod
+Name[es]=Modo seguro
+Name[fr]=Mode sans échec
+Name[de]=Abgesicherter Modus
+Name[ru]=Безопасный режим
+Name[zh]=安全模式
+Name[pt]=Modo seguro
+Name[it]=Modalità provvisoria
+Name[ja]=セーフモード
+Name[ko]=안전 모드
+Name[hi]=सुरक्षित मोड
+Name[bn]=সেফ মোড
