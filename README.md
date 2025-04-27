@@ -3,8 +3,8 @@ This repository provides a .desktop entry and an icon for integrating the Zen Br
 
 ## Files
 ```
-zenbrowser.desktop — Desktop launcher file
-icons/zenbrowser.png — Application icon
+zen.desktop — Desktop launcher file
+zen-browser.png — Application icon
 ```
 
 ## Installation Steps
