@@ -1,0 +1,22 @@
+[Desktop Entry]
+Exec=<path-to-your-AppImage-file>
+Name=Zen Browser
+Type=Application
+Keywords=Internet;WWW;Browser;Web;Explorer;
+Categories=GNOME;GTK;Network;WebBrowser;
+Icon=/usr/share/applications/zen-browser.png
+Comment=Browse the World Wide Web
+GenericName=Web Browser
+Actions=new-window;private-window;safe-mode;
+
+[Desktop Action new-window]
+Name=New Window
+Exec=<path-to-your-AppImage-file> --new-window
+
+[Desktop Action private-window]
+Name=Private Window
+Exec=<path-to-your-AppImage-file> --private-window
+
+[Desktop Action safe-mode]
+Name=Safe Mode
+Exec=<path-to-your-AppImage-file> --safe-mode
