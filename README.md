@@ -21,10 +21,10 @@ You must replace <path-to-your-AppImage-file> with the full absolute path to whe
 **Important:**
 Update all ```Exec=``` fields in the following sections:
 ```
-    [Desktop Entry]
-    [Desktop Action new-window]
-    [Desktop Action private-window]
-    [Desktop Action safe-mode]
+[Desktop Entry]
+[Desktop Action new-window]
+[Desktop Action private-window]
+[Desktop Action safe-mode]
 ```
 Each Exec= line must point correctly to your Zen Browser AppImage location.
 
